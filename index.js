@@ -5,6 +5,7 @@ const cors = require('cors')
 const nodemailer = require('nodemailer')
 const path = require('path')
 const axios = require('axios')
+const { join } = require('path')
 
 app.use(cors())
 app.use(express.json())
@@ -54,7 +55,10 @@ app.post('/contact', async (req, res) => {
   smtpTransport.sendMail(mailOptions,
     (err, res) => {
       if (err) {
-        res.send(err)
+        res.status(500).send({
+          success: false,
+          message: 'Something went wrong'
+        })
       }
       else {
         res.send('Success')
