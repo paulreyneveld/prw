@@ -54,6 +54,7 @@ app.post('/contact', async (req, res) => {
 
   smtpTransport.sendMail(mailOptions,
     (err, res) => {
+      console.log('HELLO WORLD!!!!!!!!!!');
       if (err) {
         res.send({
           success: false,
