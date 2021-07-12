@@ -55,7 +55,7 @@ app.post('/contact', async (req, res) => {
   smtpTransport.sendMail(mailOptions,
     (err, res) => {
       if (err) {
-        res.status(500).send({
+        res.send({
           success: false,
           message: 'Something went wrong'
         })
