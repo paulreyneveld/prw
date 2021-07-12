@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1867ff7.chunk.css",
+    "main.js": "/static/js/main.5a8b26c9.chunk.js",
+    "main.js.map": "/static/js/main.5a8b26c9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.288b0588.js",
+    "runtime-main.js.map": "/static/js/runtime-main.288b0588.js.map",
+    "static/css/2.2a86faee.chunk.css": "/static/css/2.2a86faee.chunk.css",
+    "static/js/2.e298ed4a.chunk.js": "/static/js/2.e298ed4a.chunk.js",
+    "static/js/2.e298ed4a.chunk.js.map": "/static/js/2.e298ed4a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8fc6535273eedb40bd3c3d024bc08db3.js": "/precache-manifest.8fc6535273eedb40bd3c3d024bc08db3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.b1867ff7.chunk.css.map": "/static/css/main.b1867ff7.chunk.css.map",
+    "static/js/2.e298ed4a.chunk.js.LICENSE.txt": "/static/js/2.e298ed4a.chunk.js.LICENSE.txt",
+    "static/media/courses-app-screen.png": "/static/media/courses-app-screen.dc0b66ef.png",
+    "static/media/quiz-app-screen.png": "/static/media/quiz-app-screen.f7c3e0d0.png",
+    "static/media/custom.css": "/static/media/resize1.48de87e5.jpg",
+    "static/media/wheeler-screen.png": "/static/media/wheeler-screen.a40796d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.288b0588.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.e298ed4a.chunk.js",
+    "static/css/main.b1867ff7.chunk.css",
+    "static/js/main.5a8b26c9.chunk.js"
+  ]
+}
