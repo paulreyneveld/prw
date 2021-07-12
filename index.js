@@ -56,10 +56,7 @@ app.post('/contact', async (req, res) => {
     (err, res) => {
       console.log('HELLO WORLD!!!!!!!!!!');
       if (err) {
-        res.send({
-          success: false,
-          message: 'Something went wrong'
-        })
+        console.log('ERROR!!!!!', err);
       }
       else {
         res.send('Success')
